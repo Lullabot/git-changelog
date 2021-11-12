@@ -1,0 +1,30 @@
+{
+  "name": "git-changelog",
+  "version": "0.0.0",
+  "description": "Pull commit credits between two git branches or tags to generate a release report.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lullabot/git-changelog.git"
+  },
+  "author": "Chris Albrecht",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Lullabot/git-changelog/issues"
+  },
+  "homepage": "https://github.com/Lullabot/git-changelog#readme",
+  "dependencies": {
+    "commander": "^8.2.0",
+    "github-api": "^3.4.0",
+    "inquirer": "^8.2.0",
+    "jira-client": "^6.23.0",
+    "node-cache": "^5.1.2",
+    "open": "^8.4.0"
+  },
+  "devDependencies": {
+    "mocha": "^9.1.3"
+  }
+}

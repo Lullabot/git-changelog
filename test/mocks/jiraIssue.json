@@ -1,0 +1,368 @@
+{
+  "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+  "id": "4481506",
+  "self": "https://example.com/rest/api/2/issue/4481506",
+  "key": "HC-123",
+  "fields": {
+    "fixVersions": [],
+    "resolution": null,
+    "customfield_10104": null,
+    "customfield_10500": null,
+    "customfield_10105": "2|hv5bgv:",
+    "customfield_10106": null,
+    "customfield_10900": null,
+    "customfield_10901": null,
+    "customfield_10902": null,
+    "customfield_10903": null,
+    "customfield_20700": null,
+    "customfield_18101": null,
+    "lastViewed": null,
+    "customfield_18103": "large description.",
+    "priority": {
+      "self": "https://example.com/rest/api/2/priority/2",
+      "iconUrl": "https://example.com/images/icons/priorities/high.svg",
+      "name": "High",
+      "id": "2"
+    },
+    "customfield_10100": null,
+    "labels": [
+      "collector-45577f11",
+      "widget"
+    ],
+    "customfield_16601": null,
+    "customfield_13603": null,
+    "customfield_13602": null,
+    "customfield_13605": null,
+    "customfield_15109": null,
+    "customfield_13604": null,
+    "customfield_13607": null,
+    "aggregatetimeoriginalestimate": null,
+    "timeestimate": null,
+    "versions": [],
+    "customfield_13606": null,
+    "customfield_13609": null,
+    "customfield_13608": null,
+    "issuelinks": [],
+    "customfield_21900": null,
+    "assignee": {
+      "self": "https://example.com/rest/api/2/user?username=assignee%40example.com",
+      "name": "assignee@example.com",
+      "key": "assignee@example.com",
+      "emailAddress": "assignee@example.com",
+      "avatarUrls": {
+        "48x48": "https://example.com/secure/useravatar?avatarId=10122",
+        "24x24": "https://example.com/secure/useravatar?size=small&avatarId=10122",
+        "16x16": "https://example.com/secure/useravatar?size=xsmall&avatarId=10122",
+        "32x32": "https://example.com/secure/useravatar?size=medium&avatarId=10122"
+      },
+      "displayName": "Assignee",
+      "active": true,
+      "timeZone": "America/Chicago"
+    },
+    "status": {
+      "self": "https://example.com/rest/api/2/status/10204",
+      "description": "Item is blocked / has an impediment",
+      "iconUrl": "https://example.com/images/icons/statuses/generic.png",
+      "name": "Blocked",
+      "id": "10204",
+      "statusCategory": {
+        "self": "https://example.com/rest/api/2/statuscategory/4",
+        "id": 4,
+        "key": "indeterminate",
+        "colorName": "yellow",
+        "name": "In Progress"
+      }
+    },
+    "components": [
+      {
+        "self": "https://example.com/rest/api/2/component/23331",
+        "id": "23331",
+        "name": "Component 1"
+      }
+    ],
+    "customfield_13601": null,
+    "archiveddate": null,
+    "customfield_10600": null,
+    "aggregatetimeestimate": null,
+    "creator": {
+      "self": "https://example.com/rest/api/2/user?username=creator%40example.com",
+      "name": "creator@example.com",
+      "key": "creator@example.com",
+      "emailAddress": "creator@example.com",
+      "avatarUrls": {
+        "48x48": "https://example.com/secure/useravatar?ownerId=creator%40example.com&avatarId=21023",
+        "24x24": "https://example.com/secure/useravatar?size=small&ownerId=creator%40example.com&avatarId=21023",
+        "16x16": "https://example.com/secure/useravatar?size=xsmall&ownerId=creator%40example.com&avatarId=21023",
+        "32x32": "https://example.com/secure/useravatar?size=medium&ownerId=creator%40example.com&avatarId=21023"
+      },
+      "displayName": "Creator",
+      "active": false,
+      "timeZone": "America/Vancouver"
+    },
+    "subtasks": [],
+    "customfield_15213": null,
+    "customfield_15214": null,
+    "reporter": {
+      "self": "https://example.com/rest/api/2/user?username=reporter%40cn.example.com",
+      "name": "reporter@cn.example.com",
+      "key": "reporter@cn.example.com",
+      "emailAddress": "reporter@cn.example.com",
+      "avatarUrls": {
+        "48x48": "https://example.com/secure/useravatar?avatarId=10122",
+        "24x24": "https://example.com/secure/useravatar?size=small&avatarId=10122",
+        "16x16": "https://example.com/secure/useravatar?size=xsmall&avatarId=10122",
+        "32x32": "https://example.com/secure/useravatar?size=medium&avatarId=10122"
+      },
+      "displayName": "Reporter",
+      "active": true,
+      "timeZone": "America/Chicago"
+    },
+    "aggregateprogress": {
+      "progress": 0,
+      "total": 0
+    },
+    "customfield_16703": null,
+    "customfield_10200": "This is the detailed acceptance criteria.",
+    "customfield_12102": null,
+    "customfield_10313": null,
+    "customfield_10314": null,
+    "customfield_10315": null,
+    "customfield_15209": null,
+    "progress": {
+      "progress": 0,
+      "total": 0
+    },
+    "votes": {
+      "self": "https://example.com/rest/api/2/issue/HC-1808/votes",
+      "votes": 0,
+      "hasVoted": false
+    },
+    "worklog": {
+      "startAt": 0,
+      "maxResults": 20,
+      "total": 0,
+      "worklogs": []
+    },
+    "archivedby": null,
+    "issuetype": {
+      "self": "https://example.com/rest/api/2/issuetype/10102",
+      "id": "10102",
+      "description": "A problem which impairs or prevents the functions of the product.",
+      "iconUrl": "https://example.com/secure/viewavatar?size=xsmall&avatarId=10303&avatarType=issuetype",
+      "name": "Bug",
+      "subtask": false,
+      "avatarId": 10303
+    },
+    "timespent": null,
+    "customfield_15203": null,
+    "project": {
+      "self": "https://example.com/rest/api/2/project/25527",
+      "id": "25527",
+      "key": "HC",
+      "name": "Example Project",
+      "projectTypeKey": "software",
+      "avatarUrls": {
+        "48x48": "https://example.com/secure/projectavatar?pid=25527&avatarId=10200",
+        "24x24": "https://example.com/secure/projectavatar?size=small&pid=25527&avatarId=10200",
+        "16x16": "https://example.com/secure/projectavatar?size=xsmall&pid=25527&avatarId=10200",
+        "32x32": "https://example.com/secure/projectavatar?size=medium&pid=25527&avatarId=10200"
+      },
+      "projectCategory": {
+        "self": "https://example.com/rest/api/2/projectCategory/10102",
+        "id": "10102",
+        "description": "All Projects Created using built in Agile templates",
+        "name": "Team Project"
+      }
+    },
+    "customfield_11001": null,
+    "aggregatetimespent": null,
+    "customfield_10310": null,
+    "customfield_15204": null,
+    "customfield_10311": null,
+    "customfield_10312": null,
+    "customfield_10302": null,
+    "customfield_10303": null,
+    "customfield_10304": null,
+    "customfield_10700": {
+      "self": "https://example.com/rest/api/2/customFieldOption/10303",
+      "value": "Moderate",
+      "id": "10303",
+      "disabled": false
+    },
+    "customfield_10305": null,
+    "customfield_10306": null,
+    "customfield_10307": null,
+    "customfield_10308": null,
+    "resolutiondate": null,
+    "customfield_10309": null,
+    "workratio": -1,
+    "watches": {
+      "self": "https://example.com/rest/api/2/issue/HC-1808/watchers",
+      "watchCount": 5,
+      "isWatching": true
+    },
+    "customfield_20100": null,
+    "customfield_22002": null,
+    "created": "2021-04-07T21:29:19.180-0500",
+    "customfield_14101": null,
+    "customfield_10300": null,
+    "customfield_10301": null,
+    "updated": "2021-05-25T14:09:23.126-0500",
+    "timeoriginalestimate": null,
+    "description": "Full issue description.",
+    "customfield_11100": null,
+    "timetracking": {},
+    "customfield_10800": null,
+    "attachment": [
+      {
+        "self": "https://example.com/rest/api/2/attachment/2849043",
+        "id": "2849043",
+        "filename": "add card.jpg",
+        "author": {
+          "self": "https://example.com/rest/api/2/user?username=creator%40example.com",
+          "name": "creator@example.com",
+          "key": "creator@example.com",
+          "emailAddress": "creator@example.com",
+          "avatarUrls": {
+            "48x48": "https://example.com/secure/useravatar?ownerId=creator%40example.com&avatarId=21023",
+            "24x24": "https://example.com/secure/useravatar?size=small&ownerId=creator%40example.com&avatarId=21023",
+            "16x16": "https://example.com/secure/useravatar?size=xsmall&ownerId=creator%40example.com&avatarId=21023",
+            "32x32": "https://example.com/secure/useravatar?size=medium&ownerId=creator%40example.com&avatarId=21023"
+          },
+          "displayName": "Creator",
+          "active": false,
+          "timeZone": "America/Vancouver"
+        },
+        "created": "2021-04-07T21:28:43.307-0500",
+        "size": 237128,
+        "mimeType": "image/jpeg",
+        "content": "https://example.com/secure/attachment/2849043/add+card.jpg",
+        "thumbnail": "https://example.com/secure/thumbnail/2849043/_thumb_2849043.png"
+      },
+      {
+        "self": "https://example.com/rest/api/2/attachment/2902403",
+        "id": "2902403",
+        "filename": "Attachment 1",
+        "author": {
+          "self": "https://example.com/rest/api/2/user?username=reporter%40cn.example.com",
+          "name": "reporter@cn.example.com",
+          "key": "reporter@cn.example.com",
+          "emailAddress": "reporter@cn.example.com",
+          "avatarUrls": {
+            "48x48": "https://example.com/secure/useravatar?avatarId=10122",
+            "24x24": "https://example.com/secure/useravatar?size=small&avatarId=10122",
+            "16x16": "https://example.com/secure/useravatar?size=xsmall&avatarId=10122",
+            "32x32": "https://example.com/secure/useravatar?size=medium&avatarId=10122"
+          },
+          "displayName": "Reporter",
+          "active": true,
+          "timeZone": "America/Chicago"
+        },
+        "created": "2021-04-21T01:15:29.913-0500",
+        "size": 469456,
+        "mimeType": "image/jpeg",
+        "content": "https://example.com/secure/attachment/2902403/Change+card+title+-+IBM+Power+Systems+Virtual+Servers.jpg",
+        "thumbnail": "https://example.com/secure/thumbnail/2902403/_thumb_2902403.png"
+      }
+    ],
+    "summary": "Issue Summary",
+    "customfield_16500": null,
+    "customfield_10000": null,
+    "customfield_14205": null,
+    "customfield_14206": null,
+    "customfield_14203": null,
+    "customfield_16503": null,
+    "customfield_10400": null,
+    "customfield_18800": null,
+    "customfield_11601": null,
+    "customfield_11600": null,
+    "environment": "\n\n",
+    "customfield_11603": null,
+    "customfield_11602": null,
+    "customfield_13901": null,
+    "customfield_11604": null,
+    "duedate": null,
+    "comment": {
+      "comments": [
+        {
+          "self": "https://example.com/rest/api/2/issue/4481506/comment/4638590",
+          "id": "4638590",
+          "author": {
+            "self": "https://example.com/rest/api/2/user?username=commenter%40example.com",
+            "name": "commenter@example.com",
+            "key": "commenter@example.com",
+            "emailAddress": "commenter@example.com",
+            "avatarUrls": {
+              "48x48": "https://example.com/secure/useravatar?ownerId=commenter%40example.com&avatarId=24602",
+              "24x24": "https://example.com/secure/useravatar?size=small&ownerId=commenter%40example.com&avatarId=24602",
+              "16x16": "https://example.com/secure/useravatar?size=xsmall&ownerId=commenter%40example.com&avatarId=24602",
+              "32x32": "https://example.com/secure/useravatar?size=medium&ownerId=commenter%40example.com&avatarId=24602"
+            },
+            "displayName": "Commenter",
+            "active": true,
+            "timeZone": "America/Chicago"
+          },
+          "body": "Comment Body",
+          "updateAuthor": {
+            "self": "https://example.com/rest/api/2/user?username=commenter%40example.com",
+            "name": "commenter@example.com",
+            "key": "commenter@example.com",
+            "emailAddress": "commenter@example.com",
+            "avatarUrls": {
+              "48x48": "https://example.com/secure/useravatar?ownerId=commenter%40example.com&avatarId=24602",
+              "24x24": "https://example.com/secure/useravatar?size=small&ownerId=commenter%40example.com&avatarId=24602",
+              "16x16": "https://example.com/secure/useravatar?size=xsmall&ownerId=commenter%40example.com&avatarId=24602",
+              "32x32": "https://example.com/secure/useravatar?size=medium&ownerId=commenter%40example.com&avatarId=24602"
+            },
+            "displayName": "Commenter",
+            "active": true,
+            "timeZone": "America/Chicago"
+          },
+          "created": "2021-04-09T12:58:26.334-0500",
+          "updated": "2021-04-09T12:58:26.334-0500"
+        },
+        {
+          "self": "https://example.com/rest/api/2/issue/4481506/comment/4640753",
+          "id": "4640753",
+          "author": {
+            "self": "https://example.com/rest/api/2/user?username=Commenter%40example.com",
+            "name": "Commenter@example.com",
+            "key": "Commenter@example.com",
+            "emailAddress": "Commenter@example.com",
+            "avatarUrls": {
+              "48x48": "https://example.com/secure/useravatar?ownerId=Commenter%40example.com&avatarId=26740",
+              "24x24": "https://example.com/secure/useravatar?size=small&ownerId=Commenter%40example.com&avatarId=26740",
+              "16x16": "https://example.com/secure/useravatar?size=xsmall&ownerId=Commenter%40example.com&avatarId=26740",
+              "32x32": "https://example.com/secure/useravatar?size=medium&ownerId=Commenter%40example.com&avatarId=26740"
+            },
+            "displayName": "Commenter",
+            "active": true,
+            "timeZone": "America/Denver"
+          },
+          "body": "Comment 2 body.",
+          "updateAuthor": {
+            "self": "https://example.com/rest/api/2/user?username=Commenter%40example.com",
+            "name": "Commenter@example.com",
+            "key": "Commenter@example.com",
+            "emailAddress": "Commenter@example.com",
+            "avatarUrls": {
+              "48x48": "https://example.com/secure/useravatar?ownerId=Commenter%40example.com&avatarId=26740",
+              "24x24": "https://example.com/secure/useravatar?size=small&ownerId=Commenter%40example.com&avatarId=26740",
+              "16x16": "https://example.com/secure/useravatar?size=xsmall&ownerId=Commenter%40example.com&avatarId=26740",
+              "32x32": "https://example.com/secure/useravatar?size=medium&ownerId=Commenter%40example.com&avatarId=26740"
+            },
+            "displayName": "Commenter",
+            "active": true,
+            "timeZone": "America/Denver"
+          },
+          "created": "2021-04-09T17:20:30.675-0500",
+          "updated": "2021-04-09T17:20:30.675-0500"
+        }
+      ],
+      "maxResults": 6,
+      "total": 6,
+      "startAt": 0
+    }
+  },
+  "properties": {}
+}
