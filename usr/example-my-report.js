@@ -1,14 +1,14 @@
 #!/usr/local/bin/node
 "use strict";
 
-const md = require('../lib/markdown');
 const Report = require('../lib/report');
 
 /**
- * Defines class Report.
+ * Defines class MyReport.
+ * @override
  */
 class MyReport extends Report {
 
 }
 
-module.exports = Report;
+module.exports = MyReport;
