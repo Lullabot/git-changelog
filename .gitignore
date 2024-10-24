@@ -2,6 +2,9 @@ src
 config.js
 index.js
 
+usr/*
+!usr/example-*
+
 # Logs
 logs
 *.log

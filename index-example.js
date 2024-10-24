@@ -22,6 +22,7 @@ program
 
 /** EDIT BELOW THIS SECTION ONLY **/
 
+// Copy these files to make them your own.
 const myTasks = require('./usr/my-tasks');
 const myReport = require('./usr/my-report');
 
