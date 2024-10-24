@@ -3,7 +3,7 @@
 
 /**
  * @file
- * Generate the release report for the Cloud team.
+ * Generate the release report for [Current Project] team.
  */
 const {program} = require('commander');
 const Changelog = require('./lib/changelog');
@@ -20,8 +20,16 @@ program
     .option('-d, --debug', 'Run the program in debug mode for more verbose errors.')
     .parse(process.argv);
 
-const changelog = new Changelog(config, program.opts(), {});
+/** EDIT BELOW THIS SECTION ONLY **/
+
+const myTasks = require('./usr/my-tasks');
+const myReport = require('./usr/my-report');
+
+const changelog = new Changelog(config, program.opts(), myTasks);
+changelog.setReportClass(myReport);
 changelog.run();
+
+/** EDIT ABOVE THIS SECTION ONLY **/
 
 // General error handler.
 process.on('uncaughtException', err => {

@@ -9,27 +9,27 @@ describe('Getters and Setters', () => {
     it('should return empty strings if not set', () => {
         delete config.repo;
         const changelog = new ChangeLog(config, {}, {});
-        assert.strictEqual(changelog._getOption('repo'), '');
+        assert.strictEqual(changelog.getOption('repo'), '');
     });
     it('should return empty strings if value is null', () => {
         config.repo = null;
         const changelog = new ChangeLog(config, {}, {});
-        assert.strictEqual(changelog._getOption('repo'), '');
+        assert.strictEqual(changelog.getOption('repo'), '');
     });
     it('should return empty strings if value is empty', () => {
         config.repo = '';
         const changelog = new ChangeLog(config, {}, {});
-        assert.strictEqual(changelog._getOption('repo'), '');
+        assert.strictEqual(changelog.getOption('repo'), '');
     });
     it('should return option value over config value', () => {
         config.repo = 'config value';
         const changelog = new ChangeLog(config, {repo: 'option value'}, {});
-        assert.strictEqual(changelog._getOption('repo'), 'option value');
+        assert.strictEqual(changelog.getOption('repo'), 'option value');
     });
     it('should return config value if there is no option value', () => {
         config.repo = 'config value';
         const changelog = new ChangeLog(config, {repo: ''}, {});
-        assert.strictEqual(changelog._getOption('repo'), 'config value');
+        assert.strictEqual(changelog.getOption('repo'), 'config value');
     });
 });
 
