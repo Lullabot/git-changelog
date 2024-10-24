@@ -23,8 +23,8 @@ program
 /** EDIT BELOW THIS SECTION ONLY **/
 
 // Copy these files to make them your own.
-const myTasks = require('./usr/my-tasks');
-const myReport = require('./usr/my-report');
+const myTasks = require('./usr/example-my-tasks');
+const myReport = require('./usr/example-my-report');
 
 const changelog = new Changelog(config, program.opts(), myTasks);
 changelog.setReportClass(myReport);
