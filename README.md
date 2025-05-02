@@ -1,6 +1,12 @@
 # git-changelog
 Pull commit credits between two git branches or tags to generate a release report.
 
+## Before you begin...
+You'll need a [Jira API token](https://id.atlassian.com/manage-profile/security/api-tokens) and a [GitHub Personal Access Token](https://github.com/settings/personal-access-tokens) that can read from your Jira project and your GitHub repo.
+
+## Configure the app
+1. Copy `config-example.js` to `config.js` and update the values inside.
+
 ## Entry point
 1. Copy `index-example.js` to `index.js`.
 2. Make any additions you need.
